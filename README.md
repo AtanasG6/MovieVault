@@ -9,16 +9,13 @@ A modern movie discovery app built with React that lets you browse popular movie
 ## Screenshots
 
 ### Home Page
-<!-- Replace with your screenshot -->
-![Home Page](screenshots/home.png)
+![Home Page](frontend/screenshots/home.png)
 
 ### Search Results
-<!-- Replace with your screenshot -->
-![Search Results](screenshots/search.png)
+![Search Results](frontend/screenshots/search.png)
 
 ### Favorites Page
-<!-- Replace with your screenshot -->
-![Favorites](screenshots/favorites.png)
+![Favorites](frontend/screenshots/favorites.png)
 
 ---
 

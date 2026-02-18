@@ -2,7 +2,11 @@
 
 A modern movie discovery app built with React that lets you browse popular movies, search for titles, and save your favorites. Powered by [The Movie Database (TMDB)](https://www.themoviedb.org/) API.
 
-**[Live Demo](https://movie-vault-self.vercel.app/)**
+<div align="center">
+  <a href="https://movie-vault-self.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-%E2%96%B6%20Open%20App-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+</div>
 
 ---
 

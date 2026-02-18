@@ -1,16 +1,101 @@
-# React + Vite
+# MovieVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery app built with React that lets you browse popular movies, search for titles, and save your favorites. Powered by [The Movie Database (TMDB)](https://www.themoviedb.org/) API.
 
-Currently, two official plugins are available:
+**[Live Demo](https://movie-vault-self.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Page
+<!-- Replace with your screenshot -->
+![Home Page](screenshots/home.png)
 
-## Expanding the ESLint configuration
+### Search Results
+<!-- Replace with your screenshot -->
+![Search Results](screenshots/search.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Favorites Page
+<!-- Replace with your screenshot -->
+![Favorites](screenshots/favorites.png)
+
+---
+
+## Features
+
+- **Browse Popular Movies** — Displays trending movies from TMDB on the home page
+- **Search** — Search for any movie by title
+- **Favorites** — Add and remove movies from your favorites list
+- **Persistent Storage** — Favorites are saved in localStorage and persist across sessions
+- **Responsive Design** — Works on desktop and mobile devices
+
+## Tech Stack
+
+- **React 19** — UI library
+- **React Router** — Client-side routing
+- **Vite** — Build tool and dev server
+- **TMDB API** — Movie data source
+- **Font Awesome** — Icons
+- **Vercel** — Deployment
+
+## Project Structure
+
+```
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── MovieCard.jsx
+│   │   └── NavBar.jsx
+│   ├── contexts/
+│   │   └── MovieContext.jsx
+│   ├── css/
+│   │   ├── App.css
+│   │   ├── Favorites.css
+│   │   ├── Home.css
+│   │   ├── index.css
+│   │   ├── MovieCard.css
+│   │   └── Navbar.css
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Favorites.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── package.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+)
+- A free [TMDB API key](https://www.themoviedb.org/settings/api)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AtanasG6/MovieVault.git
+   cd MovieVault/frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the `frontend/` directory:
+   ```
+   VITE_TMDB_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.

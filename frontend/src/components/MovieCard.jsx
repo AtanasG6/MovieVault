@@ -15,7 +15,7 @@ function MovieCard({ movie }) {
       addToFavorites(movie);
     }
   }
-  
+
   return (
     <div className="movie-card">
       <div className="movie-poster">

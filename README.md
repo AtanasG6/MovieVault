@@ -4,7 +4,7 @@ A modern movie discovery app built with React that lets you browse popular movie
 
 <div align="center">
   <a href="https://movie-vault-self.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-%E2%96%B6%20Open%20App-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+    <img src="https://img.shields.io/badge/🎬_Live_Demo-Open_App_→-e50914?style=for-the-badge&labelColor=1a1a1a" alt="Live Demo">
   </a>
 </div>
 
